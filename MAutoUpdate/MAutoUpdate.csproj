@@ -168,7 +168,7 @@
     <Content Include="Zip DLL\msbuild.flymake.xml" />
     <None Include="config.update" />
     <Content Include="Local.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Server.xml" />
   </ItemGroup>
